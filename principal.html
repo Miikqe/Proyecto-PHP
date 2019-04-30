@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="Main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>AhoARTcado</title>
+  </head>
+  <body background="placeholder.jpeg">
+    <header id="header1">
+      <table id="menu">
+        <tr>
+          <td id="logo"><img src="Logo.jpg" alt="Prepa 6"></td>
+          <td id="tabs">Como Jugar</td>
+          <td id="tabs">Registros</td>
+          <td id="tabs">Galería</td>
+          <td id="tabs">Código</td>
+        </tr>
+      </table>
+      <fieldset id="regis">
+        <b>REGISTRO</b>
+        <form action="registro.php" method="post">
+          Nombre<input type="text" name="nom"><br>
+          Contraseña<input type="text" name="cont"><br>
+          <input type="submit" name="Enviar datos" id="botton">
+          <p id="rom">
+            Se creará un nuevo registro si no existe el especificado<br>
+            Si no se utilizará la información del usuario que se ingrese
+          </p>
+        </form>
+      </fieldset>
+    </header>
+  </body>
+</html>
